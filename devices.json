@@ -1,0 +1,41 @@
+[{
+    "title": "Ноутбук ASUS",
+    "memory": 10000000000,
+    "price": 78000
+}, {
+    "title": "Ноутбук HP",
+    "memory": 900000000,
+    "price": 100
+}, {
+    "title": "Ноутбук Acer",
+    "memory": 80000000,
+    "price": 5000
+}, {
+    "title": "Ноутбук Tochiba",
+    "memory": 7000000,
+    "price": 6800
+}, {
+    "title": "Ноутбук Sony",
+    "memory": 80000000,
+    "price": 80000
+}, {
+    "title": "Ноутбук Lenovo",
+    "memory": 264941563,
+    "price": 7400
+}, {
+    "title": "Ноутбук Samsung",
+    "memory": 65000000,
+    "price": 6300
+}, {
+    "title": "Ноутбук Apple MacBook Air",
+    "memory": 120000000,
+    "price": 99999
+}, {
+    "title": "Ноутбук Lenovo",
+    "memory": 600000,
+    "price": 2500
+}, {
+    "title": "Ноутбук ASUS",
+    "memory": 70000000,
+    "price": 5700
+}]
