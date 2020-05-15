@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    color: deepskyblue;
+}
+
+div {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
