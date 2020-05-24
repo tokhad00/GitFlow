@@ -4,17 +4,15 @@
  * @param {string} path name of json-file
  * @returns {object} device data array
  */
-function getData(path) {
-    return new Promise(function(resolve, reject) {
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', path, true);
-        xhr.onload = () => {
-            const data = JSON.parse(xhr.responseText);
-            resolve(data);
-        }
-        xhr.onerror = () => reject();
-        xhr.send(null);
-    })
+exports.getData = function (path) {
+  return new Promise(function (resolve, reject) {
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', path, true)
+    xhr.onload = () => {
+      const data = JSON.parse(xhr.responseText)
+      resolve(data)
+    }
+    xhr.onerror = () => reject()
+    xhr.send(null)
+  })
 }
-// eslint-disable-next-line
-exports.getData = getData;
